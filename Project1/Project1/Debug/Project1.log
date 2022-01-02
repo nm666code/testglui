@@ -1,0 +1,40 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中繼目錄 (Debug\) 包含從其他專案 (Project1.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\GL\glui.h(868,47): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\GL\glui.h(868,31): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\GL\glui.h(932,24): warning C4834: 正在捨棄具有 'nodiscard' 屬性之函式的傳回值
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(146,16): warning C4244: '引數': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(147,53): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(158,16): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(235,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(238,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(241,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(247,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(250,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(253,19): warning C4305: '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\norman\source\repos\Project1\Project1\Source.cpp(316,16): warning C4244: '引數': 將 'float' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+glui32d.lib(algebra3.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(algebra3.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(arcball.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(arcball.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_add_controls.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_add_controls.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_bitmaps.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_bitmaps.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_button.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_button.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_checkbox.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_checkbox.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_column.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_column.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_control.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_control.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_edittext.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_edittext.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_listbox.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_listbox.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_mouse_iaction.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_mouse_iaction.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_node.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_node.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_panel.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_panel.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_radio.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_radio.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_rollout.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_rollout.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_rotation.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_rotation.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_separator.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_separator.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_spinner.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_spinner.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_statictext.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_statictext.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_string.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_string.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_translation.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_translation.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(glui_window.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(glui_window.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+glui32d.lib(quaternion.obj) : warning LNK4099: 找不到 PDB '_glui library.pdb' (有 'glui32d.lib(quaternion.obj)' 或位於 'C:\Users\norman\source\repos\Project1\Debug\_glui library.pdb')，當做沒有偵錯資訊，連結物件
+  Project1.vcxproj -> C:\Users\norman\source\repos\Project1\Debug\3Daxis.exe
