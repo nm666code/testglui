@@ -1,4 +1,4 @@
-﻿#include<iostream>
+#include<iostream>
 #include <math.h>
 #define NDEBUG 
 #pragma comment(lib, "glui32d.lib")
@@ -83,12 +83,21 @@ void reset_Rotate(GLUI_Control* control)
 	rotationMatrix[5] = 1;
 	rotationMatrix[10] = 1;
 	rotationMatrix[15] = 1;
+	rotationUI->reset();
 }
 
-void set_uniform_Scale(GLUI_Control* control) 
+void set_uniform_Scale(int Control) 
 {
-
-
+	if (isUniformScale)
+	{
+		yS->disable();
+		zS->disable();
+	}
+	else 
+	{
+		yS->enable();
+		zS->enable();
+	}
 }
 
 // 渲染事件, 用來在場景上繪製東西
@@ -107,6 +116,9 @@ void My_Display()
 	glRotatef(rotateAngle, 0.0f, 1.0f, 0.0f);
 	rotationUI->get_float_array_val(rotationMatrix);
 	glMultMatrixf(rotationMatrix);
+	
+	if (isUniformScale)
+		teapot_scaleZ = teapot_scaleY = teapot_scaleX;
 	glScalef(teapot_scaleX, teapot_scaleY, teapot_scaleZ);
 
 	if (myColor == Red) {
@@ -251,7 +263,8 @@ void initUI()
 	glui->add_column_to_panel(controlScalePanel, 0);
 	zS = glui->add_translation_to_panel(controlScalePanel, "Z", GLUI_TRANSLATION_X, &teapot_scaleZ);
 	zS->set_speed(0.1);
-	GLUI_Checkbox* uniformScaleCheck = glui->add_checkbox_to_panel(scalePanel, "Uniform Scale", &isUniformScale);
+
+	GLUI_Checkbox* uniformScaleCheck = glui->add_checkbox_to_panel(scalePanel, "Uniform Scale", &isUniformScale, 1, set_uniform_Scale);
 	GLUI_Button* reScalebt = glui->add_button_to_panel(scalePanel, "Reset Scale", 1, reset_Scale);
 	
 	GLUI_Panel* rotatePanel = glui->add_panel("Rotate");
